@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Report Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Report Card</h1>
+    <div class="container">
+        <input type="text" id="nameInput" placeholder="Student Name">
+        <input type="number" id="ageInput" placeholder="Age">
+        <input type="number" id="mathInput" placeholder="Math Marks">
+        <input type="number" id="JSInput" placeholder="JS Marks">
+        <input type="number" id="physicsInput" placeholder="Physics Marks">
+        <button id="addBtn">Add Student</button>
+    </div>
+    <div class="controls">
+        <button id="showAGrade">Show A Grade</button>
+        <button id="sortTotal">Sort by Total</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Math</th>
+                <th>JS</th>
+                <th>Physics</th>
+                <th>Total</th>
+                <th>Average</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody id="Studenttable">
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
